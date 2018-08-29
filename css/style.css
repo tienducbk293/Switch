@@ -1,0 +1,157 @@
+head, body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+@font-face {
+	font-family: "Nautilus Pompilius";
+	src: url("/Switch/fonts/Nautilus.otf") format("opentype");
+}
+.header {
+	position: relative;
+	height: 660px;
+	width: 100%;
+}
+.header img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	vertical-align: middle;
+}
+.header-menu {
+	float: left;
+	position: absolute;
+	top: 0px;
+	padding-top: 10px;
+}
+.header-menu a {
+	color: #ffffff;
+	font-size: 16px;
+	padding-left: 20px;
+	font-weight: 300;
+	font-family: "Myriad Pro";
+	line-height: 1.2;
+	font-weight: 700;
+}
+.header-logo {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+}
+.header-logo span {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 600;
+	padding: 5px 10px;
+	font-family: "Nautilus Pompilius";
+	font-weight: 300;
+}
+.header-search {
+	position: absolute;
+	float: right;
+	top: 0px;
+}
+.header-search input {
+ 	background-color: rgb(255, 255, 255);
+	opacity: 0.8;
+	position: absolute;
+	left: 963px;
+	top: 5px;
+	width: 177px;
+	height: 27px;
+	z-index: 19;
+}
+.content1 {
+	position: relative;
+	width: 100%;
+	height: 510px;
+	background: #ffffff;
+}
+.what_we_do {
+	font-family: "Myriad Pro";
+}
+.what_we_do h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #828181;
+}
+.what_we_do span {
+	height: 2px;
+	width: 3%;
+	background-color: #828181;
+	display: inline-block;
+}
+.what_we_do p {
+	margin: 10px auto;
+	font-size: 16px;
+	color: #b7b3b3;
+}
+.content_icon {
+	margin-top: 100px;
+}
+.icon_content {
+	position: relative;
+	font-family: "Myriad Pro";
+	line-height: 1.2;
+}
+.icon_content h3 {
+	font-size: 24px;
+	color: #828181;
+}
+.icon_content p {
+	font-size: 15px;
+	color: #828181;
+	margin: auto;
+    width: 300px;
+}
+.icon_content button {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #54d154;
+	border: none;
+	border-radius: 20px;
+	margin: 20px auto;
+	width: 130px;
+	height: 35px;
+}
+.icon {
+	position: relative;
+	background-color: #e1f3e1;
+	width: 140px;
+	height: 140px;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+.icon img {
+	position: absolute;
+	top: 25%;
+	left: 26px;
+}
+.content2 {
+	position: relative;
+	background-color: #54d154;
+	width: 100%;
+	height: 700px;
+}
+.out_latest_work {
+	font-family: "Myriad Pro";
+}
+.out_latest_work h2 {
+	font-size: 32px;
+	padding-top: 20px;
+	text-transform: uppercase;
+	color: #207b20;
+}
+.out_latest_work span {
+	height: 2px;
+	width: 3%;
+	background-color: #207b20;
+	display: inline-block;
+}
+.out_latest_work p {
+	margin: 10px auto;
+	font-size: 16px;
+	color: #2b9b2b;
+}
+.content3 {
+	width: 100%;
+	height: 300px;
+}
